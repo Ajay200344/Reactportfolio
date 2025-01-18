@@ -1,0 +1,50 @@
+.projects {
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+.projects h1 {
+text-align: center;
+}
+.content {
+    
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.project1 {
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    box-shadow: 5px 5px slategrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.logo img {
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+}
+.b3 button {
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.description p{
+   text-align: center;
+}
